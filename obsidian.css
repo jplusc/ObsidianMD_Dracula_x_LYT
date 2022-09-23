@@ -11,13 +11,14 @@ LYT Dracula
 */
 
 .theme-dark {
-    --background-primary: #22212c !important;
+    /* original background #22212C, vsc background  #282A36 */
+    --background-primary: #282A36 !important;
     --background-primary-alt: #23212d !important;
     --background-secondary: #15131f !important;
     --background-secondary-alt: #2a2442 !important;
     --text-accent: #bd93f9 !important;
     --text-accent-hover: #bd93f9 !important;
-    --text-normal: #EBE3D6 !important;
+    --text-normal: #f8f8f2 !important;
     --text-muted: #6e6b7e !important; /*color of the file explorer font*/
     --text-faint: #6c6498 !important; /*color of the ribbon*/
     /* --text-highlight-bg: rgba(255, 255, 0, 0.4) !important; */
@@ -959,7 +960,11 @@ Icons: Boxicons
 
 /*─────────some of my colors──────────*/
 
---color-text1: #EBE3D6;
+--color-text-vsc: #EBE3D6;
+--color-text-npp: #F1EAD7;
+--color-comment-normal: #E3D7C5;
+--color-comment-header: #D7B377;
+--color-comment-code: #DFC190;
 
 } /* End of Variables (.theme-dark) */
 
@@ -1868,7 +1873,7 @@ Content / Active Note / Opened Notes
 
 .theme-light,
 .theme-dark {
-    --md-color-text: var(--color-text1);
+    --md-color-text: var(--color-text-vsc);
     --md-color-text-muted: var(--color-cyan-700);
     --md-color-text-faint: var(--color-cyan-900);
 
