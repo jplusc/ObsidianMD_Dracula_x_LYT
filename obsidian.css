@@ -955,6 +955,12 @@ Icons: Boxicons
     #cbd2fc, #c3c1fc, #c7b9f8, #c7a3ff);
 --color-highlight-shadow: 0px 0px 2px #a8a47881;
 
+
+
+/*─────────some of my colors──────────*/
+
+--color-text1: #EBE3D6;
+
 } /* End of Variables (.theme-dark) */
 
 /*────────────────────────────────────
@@ -1862,7 +1868,7 @@ Content / Active Note / Opened Notes
 
 .theme-light,
 .theme-dark {
-    --md-color-text: var(--color-cyan-530);
+    --md-color-text: var(--color-text1);
     --md-color-text-muted: var(--color-cyan-700);
     --md-color-text-faint: var(--color-cyan-900);
 
