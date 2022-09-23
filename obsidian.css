@@ -8,6 +8,16 @@ LYT Dracula
 
 2022-04-21 - Fixed text selection on heading and in code blocks 
 
+
+2022-09-23:
+my color-blind tweaks:
+lighten up the background a bit, add more contrast to main text color (--md-color-text)
+some of my denizen vsc colors are set in var section (see around --color-comment-header )
+for reuse as needed in this theme.
+
+** note 'translucent windows' option threw me off. caused colors to render darker than what they were set as in css and showing as in developer tools.
+
+
 */
 
 .theme-dark {
