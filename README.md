@@ -22,17 +22,17 @@ Original works:
 
 
 ## recommened fonts:
-  - `Consolas` for text font
-  - `Anonymous Pro` for monospace font
+  - `Consolas` for text font  
+  - `Anonymous Pro` for monospace font  
   (I know, they are both mono, i like that.)
 
 
 
 ## notes to myself:
-  when working on themes:
-  turn on developer tools ctrl-shift-i
-  use pointer tool to see class and current color
-  'translucent windows' option threw me off. caused colors to render darker than what they were set as in css and showing as in developer tools
+  when working on themes:  
+  turn on developer tools ctrl-shift-i  
+  use pointer tool to see class and current color  
+  'translucent windows' option threw me off. caused colors to render darker than what they were set as in css and showing as in developer tools  
 
 
 
